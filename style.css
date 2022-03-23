@@ -1,5 +1,6 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 .grid-2{
     display: grid;
@@ -9,7 +10,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: light;
     background-color: #E2D9A4;
     color: #2F3531;
@@ -17,11 +18,13 @@ body{
 }
 
 h1{
+    font-family: 'Nunito', sans-serif;
     font-size: 2.5rem;
     color: #595E48;
 }
 
 h2{
+    font-family: 'Nunito', sans-serif;
     color: #171414;
     font-size: 1.0rem;
     color: #595E48;
