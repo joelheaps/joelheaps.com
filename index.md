@@ -6,7 +6,7 @@
 - Service installation and on-premises support
 
 💻 System Administrator
-- Linux server administration
+- Linux server and VM administration
 - Ansible automation
 - Backup management
 - Performance tuning
