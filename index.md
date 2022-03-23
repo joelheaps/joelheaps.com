@@ -1,11 +1,14 @@
 # Joel Heaps
 
 🌐 Network Engineer
-💻 System Administrator
-🛩 Pilot
-⛺ Hiker
-📷 Photographer
 
+💻 System Administrator
+
+🛩 Pilot
+
+⛺ Hiker
+
+📷 Photographer
 
 ---
 
