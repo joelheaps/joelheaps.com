@@ -20,6 +20,8 @@
 
 📷 Photographer
 
+☕ Coffee enthusiast
+
 ---
 
 [LinkedIn](https://www.linkedin.com/in/joel-heaps-65079921b/)
