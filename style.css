@@ -12,26 +12,27 @@ body{
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: light;
-    background-color: #E2D9A4;
-    color: #2F3531;
+    background-color: #F1EAC2;
+    color: #2F3246;
 
 }
 
 h1{
     font-family: 'Nunito', sans-serif;
     font-size: 2.5rem;
-    color: #595E48;
+    color: #112C44;
 }
 
 h2{
     font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
     color: #171414;
     font-size: 1.0rem;
-    color: #595E48;
+    color: #112C44;
 }
 
 a{
-    color: #595E48;
+    color: #2F3246;
     text-decoration: none;
     border: 1px transparent #595E48;
     border-radius: 3px;
@@ -39,7 +40,8 @@ a{
 }
 
 p{
-    font-size: 1.0rem;
+    font-size: 1.1rem;
+    font-weight: normal;
     padding-bottom: 10px;
     margin:0;
 }
@@ -53,7 +55,7 @@ hr {
     height: 5px;
     border-radius: 3px;
     background: #292928;
-    background-image: linear-gradient(to right, #E2D9A4, #595E48);
+    background-image: linear-gradient(to right, #F1EAC2, #2F3246);
 }
 
 /* section 1 */
@@ -70,7 +72,7 @@ hr {
 
 /* animations / utilities */
 a:hover{
-    color: #595E48;
+    color: #464C58;
     cursor: pointer;
     transition: 0.3s;
 }
