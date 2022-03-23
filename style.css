@@ -1,0 +1,116 @@
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    font-weight: light;
+    background-color: #E2D9A4;
+    color: #171414;
+
+}
+
+h2,.black{
+    color: #171414;
+}
+
+a{
+    color: #a29553;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 33vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    color: #595E48;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.section-1 a:hover{
+    color: #595E48;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+
+p + ul {
+    margin-top: -5px;
+}
+
+.hr {
+    border: 0;
+    height: 5px;
+    border-radius: 2px;
+    background: #292928;
+    background-image: linear-gradient(to right, #E2D9A4, #B7AC72);
+  }
