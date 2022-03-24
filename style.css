@@ -1,6 +1,6 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 
 page-container {
@@ -18,29 +18,29 @@ body{
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: light;
-    background-color: #F1EAC2;
-    color: #2F3246;
+    background-color: #f2eeda;
+    color: #3C2E31;
 
 }
 
 h1{
-    font-family: 'Nunito', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
-    background-image: linear-gradient(60deg, #2F3246, #7FA671);
+    background-image: linear-gradient(60deg, #7FA671, #2F3246);
     background-size: 100%;
     background-repeat: repeat;
 }
 
 h2{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
-    color: #2F3246;
-    font-size: 1.0rem;
+    color: #3C2E31;
+    font-size: 1.2rem;
 }
 
 a{
@@ -67,7 +67,7 @@ hr {
     height: 5px;
     border-radius: 3px;
     background: #292928;
-    background-image: linear-gradient(to right, #F1EAC2, #7FA671);
+    background-image: linear-gradient(to right, #f2eeda, #7FA671);
 }
 
 /* section 1 */
@@ -120,7 +120,7 @@ a:hover{
     box-shadow: 0 1px 4px #2F3246;
     
     background-color: #7FA671;
-    font-family: 'Nunito';
+    font-family: 'Ubuntu';
     color: #fcfaef;
     
     transition: background-color .3s;
@@ -171,4 +171,6 @@ a:hover{
 .subtle {
     color: #ccc6a3;
     display: inline-block;
+    font-family: 'Ubuntu';
+    font-weight: 300;
 }
