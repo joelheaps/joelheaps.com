@@ -7,7 +7,8 @@
     position: relative;
     float: left;
     min-width: fit-content;
-    min-height: 100vh;
+    height: 100%;
+    min-height: 500px;
     padding-top: 1vh;
 
     position: absolute;
@@ -22,7 +23,7 @@
 }
 
 .left-textbox {
-    padding-right: 5vw;
+    padding-right: 6vw;
     text-align: right;
     min-width: fit-content;
 }
@@ -48,7 +49,8 @@
         position: relative;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
         width: 100vw;
-        padding-bottom: 3vh;
+        padding-bottom: 4vh;
+        min-height: fit-content;
     }
     .right {
         position: relative;
