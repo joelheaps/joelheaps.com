@@ -17,9 +17,8 @@
     width: 40vw;
     /*background-image: url("left_bg_pattern.png");
     background-repeat: repeat;*/
-    background-color: #2D262B;
+    background-color: #445845;
     clip-path: polygon(0 0, 100% 0, 71% 100%, 0 100%);
-    box-shadow: 5px 5px 10px gray;
 }
 
 .left-textbox {
@@ -66,8 +65,8 @@ body{
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: light;
-    background-color: #EEF1DA;
-    color: #2D262B;
+    background-color: #F2F1E1;
+    color: #2F3540;
 
 }
 
@@ -75,13 +74,14 @@ h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color: #EEF1DA;
+    color: #F2F1E1;
+    text-shadow: 0px 0px 9px #2F3540;
 }
 
 h2{
     font-family: 'Ubuntu', sans-serif;
     font-weight: lighter;
-    color: #EEF1DA;
+    color: #F2F1E1;
     font-size: 1.2rem;
     font-weight: 300;
 }
@@ -110,7 +110,7 @@ hr {
     height: 5px;
     border-radius: 3px;
     background: #292928;
-    background-image: linear-gradient(to right, #4E4F3B, #EEF1DA);
+    background-image: linear-gradient(to right, #2F3540, #EEF1DA);
 }
 
 .btn {
@@ -127,15 +127,16 @@ hr {
     border-radius: 2px;
     box-shadow: 0 1px 4px #2d2f26;
     
-    background-color: #2D262B;
+    background-color: #2F3540;
     font-family: 'Ubuntu';
-    color: #fcfaef;
+    color: #fffeed;
     
     transition: background-color .3s;
   }
   
   .btn:hover, .btn:focus {
-    background-color: #4E4F3B;
+    background-color: #A0CDA8;
+    color: white;
   }
   
   .btn > * {
@@ -177,7 +178,7 @@ hr {
   }
 
 .subtle {
-    color: #d6d9c3;
+    color: #d9d8ca;
     display: inline-block;
     font-family: 'Ubuntu';
     font-weight: 300;
