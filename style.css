@@ -8,8 +8,10 @@
     float: left;
     min-width: fit-content;
     height: 100%;
-    min-height: 500px;
-    padding-top: 1vh;
+    min-height: 120vh;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 8vw;
 
     position: absolute;
     top: 0;
@@ -21,8 +23,6 @@
 }
 
 .left-textbox {
-    padding-top: 2vh;
-    padding-right: 8vw;
     text-align: center;
     min-width: fit-content;
 }
@@ -30,7 +30,7 @@
 .right {
     position: absolute;
     float: right;
-    padding-left: 46vw;
+    padding-left: 52vw;
     padding-top: 5vh;
 }
 
@@ -48,7 +48,9 @@
         position: relative;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
         width: 100vw;
-        padding-bottom: 4vh;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 8vh;
         min-height: fit-content;
     }
     .right {
