@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500');
+@import url('https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible:ital,wght@0,400;1,600');
 
 
 /* slant and left right columns */
@@ -16,22 +16,21 @@
     bottom: 0;
     left: 0;
     width: 40vw;
-    /*background-image: url("left_bg_pattern.png");
-    background-repeat: repeat;*/
-    background-color: #445845;
+    background-color: #082108;
     clip-path: polygon(0 0, 100% 0, 71% 100%, 0 100%);
 }
 
 .left-textbox {
-    padding-right: 6vw;
-    text-align: right;
+    padding-top: 2vh;
+    padding-right: 8vw;
+    text-align: center;
     min-width: fit-content;
 }
 
 .right {
     position: absolute;
     float: right;
-    padding-left: 42vw;
+    padding-left: 46vw;
     padding-top: 5vh;
 }
 
@@ -61,21 +60,32 @@
 }
   
 
+/* decorator image */
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* formatting and colors */
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: light;
     background-color: #F2F1E1;
-    color: #2F3540;
+    color: #18161B;
 
 }
 
 h1{
     font-family: 'Ubuntu', sans-serif;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #F2F1E1;
     text-shadow: 0px 0px 9px #2F3540;
 }
@@ -109,10 +119,10 @@ p + ul {
 
 hr {
     border: 0;
-    height: 5px;
-    border-radius: 3px;
-    background: #292928;
-    background-image: linear-gradient(to right, #2F3540, #EEF1DA);
+    height: 1px;
+    border-radius: 1px;
+    background: rgb(8,33,8);
+    background: linear-gradient(90deg, rgba(8,33,8,1) 0%, rgba(242,241,225,1) 73%);
 }
 
 .btn {
@@ -129,15 +139,15 @@ hr {
     border-radius: 2px;
     box-shadow: 1px 1px 8px #a6a59a;
     
-    background-color: #2F3540;
-    font-family: 'Ubuntu';
+    background-color: #082108;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     color: #fffeed;
     
     transition: background-color .3s;
   }
   
   .btn:hover, .btn:focus {
-    background-color: #A0CDA8;
+    background-color: #2A6641;
     color: white;
   }
   
@@ -179,9 +189,18 @@ hr {
     transition: width .2s ease-out, padding-top .2s ease-out;
   }
 
+.special {
+    background-color: #2A6641 !important;
+    font-weight: 600;
+}
+
+.special:hover, .special:focus {
+    background-color: #082108 !important;
+}
+
 .subtle {
-    color: #d9d8ca;
+    color: #708069;
     display: inline-block;
-    font-family: 'Ubuntu';
+    font-family: 'Inter', sans-serif;
     font-weight: 300;
 }
